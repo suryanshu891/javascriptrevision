@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          let a=parseInt(prompt("marks of math subject"));
+       let b=parseInt(prompt("marks of english subject"));
+       let c= parseInt(prompt("marks of hindi subject"));
+       let d=parseInt(prompt("marks of science subject"));
+       let sum=0;
+       sum=sum+a+b+c+d;
+       let average=sum/4;
+       document.write("total number of sum"+sum,"<br>");
+       document.write("total number of average"+average,"<br>");
+       if(average>=70&&average<=80){
+        document.write("c grade");
+       }
+       else if(average>=80&&average<=90){
+        document.write("b grade");
+       }
+       else if(average>=90&&average<=100){
+        document.write("a grade");
+       }
+       else{
+        document.write("invalid input");
+       }
+
+      
+    </script>
+    
+</body>
+</html>
